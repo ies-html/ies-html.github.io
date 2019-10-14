@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+           }
+
+        td, th {
+            border: 2px solid #dddddd;
+            text-align: left;
+            padding: 4px;}
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+            }
+      </style>
+    </head>
+    <body>
+       
+        <h1>Libro de recetas</h1>
+        
+        <h2>Índice de recetas</h2>
+        
+        <ol>
+            <li>Receta 1 <a href="#r1">(Nombre receta 1)</a></li>
+            <li>Receta 2 <a href="#r2">(Nombre receta 2) </a></li>
+        </ol>
+        
+        <h2 id="r1">Receta 1: ________</h2>
+        
+        <ul>
+            <li>Tiempo de preparación: _____ </li>
+            <li>Personas: _____ </li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredientes</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>        
+                    <td>Ingrediente 1</td>
+                    <td>Cantidad 1</td>
+                </tr>
+                <tr>        
+                    <td>Ingrediente 2</td>
+                    <td>Cantidad 2</td>
+                </tr>
+      
+            
+            </tbody>
+        </table>
+        
+        <p><b>Pasos para la elaboración:</b></p>
+    
+        <ol>
+            <li>En primer lugar... </li>
+            <li>En segundo lugar...</li>
+        </ol>
+    
+    
+    
+       <h2 id="r2">Receta 2: ________</h2>
+    
+        <p>...
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>      
+        </p>
+    
+    <p><em>Visitar los enlaces: <a href="https://es.wikipedia.org/wiki/Receta_de_cocina">Algunos sitios web de recetas</a></em></p>
+    
+    </body>
+</html>
+
